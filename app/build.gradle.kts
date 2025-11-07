@@ -7,6 +7,10 @@ android {
     namespace = "com.faizal.aplikasiuntukuts"
     compileSdk = 36
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.faizal.aplikasiuntukuts"
         minSdk = 24
