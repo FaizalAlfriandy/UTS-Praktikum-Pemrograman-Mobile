@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val contactButton: Button = findViewById(R.id.btn_contact)
 
         contactButton.setOnClickListener {
-            // Menampilkan informasi kontak melalui AlertDialog
+
             val dialog = AlertDialog.Builder(this)
                 .setTitle("Kontak Saya 📞")
                 .setMessage(
